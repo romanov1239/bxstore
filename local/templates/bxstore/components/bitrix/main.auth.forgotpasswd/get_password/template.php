@@ -8,7 +8,7 @@ use \Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 
 \Bitrix\Main\Page\Asset::getInstance()->addCss(
-	'/bitrix/css/main/system.auth/flat/style.css'
+	'/bitrix/css/main/system.auth/flat/style.scss'
 );
 
 if ($arResult['AUTHORIZED'])

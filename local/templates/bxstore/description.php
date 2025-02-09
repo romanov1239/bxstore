@@ -1,5 +1,5 @@
 <?
-$arTemplate=array(
-    'NAME'=>'Шаблон сайта'
+$arTemplate = array (
+    'NAME' => 'Шаблон сайта'
 );
 ?>

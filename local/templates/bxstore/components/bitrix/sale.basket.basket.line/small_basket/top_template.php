@@ -9,12 +9,10 @@ $compositeStub = (isset($arResult['COMPOSITE_STUB']) && $arResult['COMPOSITE_STU
 ?>
 
 <a href="<?= $arParams['PATH_TO_BASKET'] ?>" rel="nofollow" class="header_basket_item">
-    <svg>
-        <use xlink:href="#acrylic"></use>
-    </svg>
+
     <span>
         В корзине
-        <i><?= $arResult['NUM_PRODUCTS'] ?> на <?= $arResult['TOTAL_PRICE'] ?></i>
+        <i><?= $arResult['NUM_PRODUCTS'] ?> товар на сумму <?= $arResult['TOTAL_PRICE'] ?></i>
     </span>
 </a>
 

@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.basket.basket.line/small_cart/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.basket.basket.line/small_cart/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.personal.order.detail/.default/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.personal.order.detail/.default/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/js/fancybox/jquery.fancybox.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/js/jquery-3.6.0.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/js/jquery-3.6.0.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/js/myscripts.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/bxstore/js/myscripts.min.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.basket.basket.line/small_cart/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.basket.basket.line/small_cart/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.personal.order.detail/.default/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/components/bitrix/sale.personal.order.detail/.default/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/js/fancybox/jquery.fancybox.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/js/jquery-3.6.0.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/js/jquery-3.6.0.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/js/myscripts.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/bxstore/js/myscripts.min.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

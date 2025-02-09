@@ -21,7 +21,7 @@ if ($arResult['OTP_REQUIRED_BY_MANDATORY'])
 }
 
 \Bitrix\Main\Page\Asset::getInstance()->addCss(
-	'/bitrix/css/main/system.auth/flat/style.css'
+	'/bitrix/css/main/system.auth/flat/style.scss'
 );
 
 $fields = $arResult['FIELDS'];
