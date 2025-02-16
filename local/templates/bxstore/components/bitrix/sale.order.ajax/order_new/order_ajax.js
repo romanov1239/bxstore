@@ -4,7 +4,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 	'use strict';
 
 	/**
-	 * Show empty default property value to multiple properties without default values
+	 * Show empty .default property value to multiple properties without .default values
 	 */
 	if (BX.Sale && BX.Sale.Input && BX.Sale.Input.Utils)
 	{
@@ -2225,7 +2225,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					BX.create('A', {
 						props: {
 							href: 'javascript:void(0)',
-							className: 'pull-left btn btn-default btn-md'
+							className: 'pull-left btn btn-.default btn-md'
 						},
 						html: this.params.MESS_BACK,
 						events: {
@@ -2242,7 +2242,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				buttons.push(
 					BX.create('A', {
-						props: {href: 'javascript:void(0)', className: 'pull-right btn btn-default btn-md'},
+						props: {href: 'javascript:void(0)', className: 'pull-right btn btn-.default btn-md'},
 						html: this.params.MESS_FURTHER,
 						events: {click: BX.proxy(this.clickNextAction, this)}
 					})
@@ -2656,7 +2656,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					BX.create('INPUT', {
 						props: {
 							type: 'submit',
-							className: 'btn btn-lg btn-default',
+							className: 'btn btn-lg btn-.default',
 							value: BX.message('STOF_ENTER')
 						},
 						events: {
@@ -2777,7 +2777,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 							props: {
 								name: 'code_submit_button',
 								type: 'submit',
-								className: 'btn btn-lg btn-default',
+								className: 'btn btn-lg btn-.default',
 								value: BX.message('STOF_SEND')
 							},
 							events: {
@@ -3039,7 +3039,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 							BX.create('INPUT', {
 								props: {
 									type: 'submit',
-									className: 'btn btn-lg btn-default',
+									className: 'btn btn-lg btn-.default',
 									value: BX.message('STOF_REGISTER')
 								},
 								events: {
@@ -3112,7 +3112,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					children: [
 						BX.create('P', {html: this.params.MESS_REGISTRATION_REFERENCE}),
 						BX.create('A', {
-							props: {className: 'btn btn-default btn-lg'},
+							props: {className: 'btn btn-.default btn-lg'},
 							text: BX.message('STOF_DO_REGISTER'),
 							events: {
 								click: BX.delegate(function(e){
@@ -6360,7 +6360,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						props: {className: buttonClassName},
 						children: [
 							BX.create('A', {
-								props: {href: '', className: 'btn btn-sm btn-default'},
+								props: {href: '', className: 'btn btn-sm btn-.default'},
 								html: this.params.MESS_SELECT_PICKUP,
 								events: {
 									click: BX.delegate(function(event){
@@ -6829,7 +6829,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						propContainer.appendChild(
 							BX.create('DIV', {
 								attrs: {'data-prop-id': property.getId()},
-								props: {className: 'btn btn-sm btn-default'},
+								props: {className: 'btn btn-sm btn-.default'},
 								text: BX.message('ADD_DEFAULT'),
 								events: {
 									click: BX.proxy(this.addLocationProperty, this)
@@ -7199,7 +7199,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			add = propContainer.querySelectorAll('input[type=button]');
 			for (i = 0; i < add.length; i++)
 			{
-				BX.addClass(add[i], 'btn btn-default btn-sm');
+				BX.addClass(add[i], 'btn btn-.default btn-sm');
 
 				if (settings.MULTIPLE == 'Y' && i == add.length - 1)
 					continue;
@@ -7239,7 +7239,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					{
 						BX.prepend(add[add.length - 2], add[add.length - 2].parentNode);
 						add[add.length - 2].style.marginRight = '10px';
-						BX.addClass(add[add.length - 2], 'btn btn-default btn-sm');
+						BX.addClass(add[add.length - 2], 'btn btn-.default btn-sm');
 					}
 
 					del && BX.remove(del);
@@ -8041,7 +8041,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 							BX.create('A', {
 								props: {
 									href: 'javascript:void(0)',
-									className: 'btn btn-default btn-lg btn-order-save'
+									className: 'btn btn-.default btn-lg btn-order-save'
 								},
 								html: this.params.MESS_ORDER,
 								events: {

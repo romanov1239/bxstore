@@ -120,7 +120,7 @@ You previously shopped with us and we remember you, so we took the liberty to fi
 If the information is correct, click \"#ORDER_BUTTON#\".
 ";
 $MESS["TEMPLATE_THEME"] = "Color theme";
-$MESS["THEME_BLUE"] = "Blue (default theme)";
+$MESS["THEME_BLUE"] = "Blue (.default theme)";
 $MESS["THEME_GREEN"] = "Green";
 $MESS["THEME_RED"] = "Red";
 $MESS["THEME_SITE"] = "Use theme as defined by the site (for bitrix.eshop)";

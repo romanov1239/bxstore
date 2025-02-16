@@ -56,7 +56,7 @@ $arResult['USER_PROPERTY'] = array(
 //<module_id>_default.png
 
 //12
-//default.png
+//.default.png
 
 $arIBlocks = array();
 
@@ -213,7 +213,7 @@ foreach($arResult["SEARCH"] as $i=>$arItem)
 		if(file_exists($abs_path.$arItem["MODULE_ID"]."_default.png"))
 			$file = $arItem["MODULE_ID"]."_default.png";
 		else
-			$file = "default.png";
+			$file = ".default.png";
 	}
 
 	$arResult["SEARCH"][$i]["ICON"] = $image_path.$file;

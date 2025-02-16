@@ -90,7 +90,7 @@
    * Breaks up the given `template` string into a tree of tokens. If the `tags`
    * argument is given here it must be an array with two string values: the
    * opening and closing tags used in the template (e.g. [ "<%", "%>" ]). Of
-   * course, the default is to use mustaches (i.e. mustache.tags).
+   * course, the .default is to use mustaches (i.e. mustache.tags).
    *
    * A token is an array with at least 4 elements. The first element is the
    * mustache symbol that was used inside the tag, e.g. "#" or "&". If the tag
@@ -580,14 +580,14 @@
   var defaultWriter = new Writer();
 
   /**
-   * Clears all cached templates in the default writer.
+   * Clears all cached templates in the .default writer.
    */
   mustache.clearCache = function clearCache () {
     return defaultWriter.clearCache();
   };
 
   /**
-   * Parses and caches the given template in the default writer and returns the
+   * Parses and caches the given template in the .default writer and returns the
    * array of tokens it contains. Doing this ahead of time avoids the need to
    * parse templates on the fly as they are rendered.
    */
@@ -597,7 +597,7 @@
 
   /**
    * Renders the `template` with the given `view` and `partials` using the
-   * default writer.
+   * .default writer.
    */
   mustache.render = function render (template, view, partials) {
     if (typeof template !== 'string') {

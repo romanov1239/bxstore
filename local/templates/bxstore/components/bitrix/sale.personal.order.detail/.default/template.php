@@ -6,8 +6,8 @@ use Bitrix\Main\Localization\Loc,
 
 if ($arParams['GUEST_MODE'] !== 'Y')
 {
-	Asset::getInstance()->addJs("/bitrix/components/bitrix/sale.order.payment.change/templates/.default/script.js");
-	Asset::getInstance()->addCss("/bitrix/components/bitrix/sale.order.payment.change/templates/.default/style.scss");
+	Asset::getInstance()->addJs("/bitrix/components/bitrix/sale.order.payment.change/templates/..default/script.js");
+	Asset::getInstance()->addCss("/bitrix/components/bitrix/sale.order.payment.change/templates/..default/style.scss");
 }
 $this->addExternalCss("/bitrix/css/main/bootstrap.css");
 

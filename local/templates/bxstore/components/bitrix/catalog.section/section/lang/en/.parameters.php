@@ -1,6 +1,6 @@
 <?
 $MESS["CP_BCS_TPL_THEME_SITE"] = "Use site theme (for bitrix.eshop)";
-$MESS["CP_BCS_TPL_THEME_BLUE"] = "blue (default theme)";
+$MESS["CP_BCS_TPL_THEME_BLUE"] = "blue (.default theme)";
 $MESS["CP_BCS_TPL_THEME_GREEN"] = "green";
 $MESS["CP_BCS_TPL_THEME_RED"] = "red";
 $MESS["CP_BCS_TPL_THEME_YELLOW"] = "yellow";
@@ -32,7 +32,7 @@ $MESS["CP_BCS_TPL_MESS_BTN_COMPARE_DEFAULT"] = "Compare";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Item not available";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Buy Now";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Add to Cart";
-$MESS["TEMPLATE_THEME_TIP"] = "Defines colors for rendering the website text and graphics. Blue theme is the default option.";
+$MESS["TEMPLATE_THEME_TIP"] = "Defines colors for rendering the website text and graphics. Blue theme is the .default option.";
 $MESS["PRODUCT_DISPLAY_MODE_TIP"] = "Item display mode (with or without SKU, etc.)";
 $MESS["ADD_PICT_PROP_TIP"] = "Additional images property for product";
 $MESS["LABEL_PROP_TIP"] = "Product tag property";

@@ -160,7 +160,7 @@ BX.saleOrderAjax = { // bad solution, actually, a singleton at the page
 					{
 						if(code == 'sls') // for sale.location.selector.search
 						{
-							// replace default boring "nothing found" label for popup with "-bx-popup-set-mode-add-loc" inside
+							// replace .default boring "nothing found" label for popup with "-bx-popup-set-mode-add-loc" inside
 							control.replaceTemplate('nothing-found', this.options.messages.notFoundPrompt);
 						}
 
@@ -213,7 +213,7 @@ BX.saleOrderAjax = { // bad solution, actually, a singleton at the page
 										townInputFlag.value = '1';
 								});
 
-								// when user click at default location or call .setValueByLocation*()
+								// when user click at .default location or call .setValueByLocation*()
 								control.bindEvent('before-set-value', function(){
 									if(BX.type.isDomNode(townInputFlag))
 										townInputFlag.value = '0';

@@ -57,7 +57,7 @@ $APPLICATION->SetTitle("Страница не найдена");?>
 		<?
 		$APPLICATION->IncludeComponent(
 			"bitrix:main.map",
-			".default",
+			"..default",
 			array(
 				"CACHE_TYPE" => "A",
 				"CACHE_TIME" => "36000000",
@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("Страница не найдена");?>
 				"LEVEL" => "3",
 				"COL_NUM" => "2",
 				"SHOW_DESCRIPTION" => "Y",
-				"COMPONENT_TEMPLATE" => ".default"
+				"COMPONENT_TEMPLATE" => "..default"
 			),
 			false
 		);?>

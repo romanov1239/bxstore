@@ -444,13 +444,13 @@ if ($request->get('ORDER_ID') <> '') {
         // we need to have all styles for sale.location.selector.steps, but RestartBuffer() cuts off document head with styles in it
         $APPLICATION->IncludeComponent(
             'bitrix:sale.location.selector.steps',
-            '.default',
+            '..default',
             array(),
             false
         );
         $APPLICATION->IncludeComponent(
             'bitrix:sale.location.selector.search',
-            '.default',
+            '..default',
             array(),
             false
         );
