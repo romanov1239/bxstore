@@ -32,20 +32,20 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/stssync/calendar/index.php',
     'SORT' => 100,
   ),
-  5 => 
-  array (
-    'CONDITION' => '#^/catalog/#',
-    'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/catalog/index.php',
-    'SORT' => 100,
-  ),
   6 => 
   array (
     'CONDITION' => '#^/katalog/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/katalog/index.php',
+    'SORT' => 100,
+  ),
+  7 => 
+  array (
+    'CONDITION' => '#^/catalog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/catalog/index.php',
     'SORT' => 100,
   ),
   4 => 

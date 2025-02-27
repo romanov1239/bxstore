@@ -23,7 +23,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Каталог", 
-		"/katalog/", 
+		"/catalog/", 
 		Array(), 
 		Array(), 
 		"" 
