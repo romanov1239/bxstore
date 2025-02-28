@@ -70,18 +70,22 @@ $CurUri = $APPLICATION->GetCurUri();
 
 
             <a href=""><img src="" alt=""></a>
-            <?$APPLICATION->IncludeComponent("bitrix:menu", "top_header_catalog_nav", Array(
-	"COMPONENT_TEMPLATE" => "horizontal_multilevel",
-		"ROOT_MENU_TYPE" => "main",	// Тип меню для первого уровня
-		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
-		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
-		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
-		"MAX_LEVEL" => "2",	// Уровень вложенности меню
-		"CHILD_MENU_TYPE" => "section",	// Тип меню для остальных уровней
-		"USE_EXT" => "Y",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
-		"DELAY" => "N",	// Откладывать выполнение шаблона меню
-		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+            <?$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"horizontal_multilevel", 
+	array(
+		"COMPONENT_TEMPLATE" => "horizontal_multilevel",
+		"ROOT_MENU_TYPE" => "main",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MAX_LEVEL" => "2",
+		"CHILD_MENU_TYPE" => "section",
+		"USE_EXT" => "Y",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N"
 	),
 	false
 );?>
@@ -175,10 +179,10 @@ $CurUri = $APPLICATION->GetCurUri();
         "SORT_ORDER2" => "ASC"
     )
 );?>
-<?} else
+<?} else {
     ?>
     zagolovok
-    <?
+    <? }
 
 
 
